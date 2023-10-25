@@ -1,7 +1,7 @@
 :root {
-    --blue:#4F6D7A;
-    --dutch:#E8DAB2;
-    --orange:#DD6E42;
+  --blue:#444;
+  --dutch:#f5ebe0;
+  --orange:#9e2a2b;
 }
 
 .navbar{
@@ -25,9 +25,9 @@
     border: 2px solid var(--dutch);
     padding: 5px 10px;
     cursor:pointer;
-  
+    height:40px;
     border-radius:8px;
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: bold;
 }
 .logo{

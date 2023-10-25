@@ -1,0 +1,24 @@
+:root {
+  --blue:#444;
+  --dutch:#f5ebe0;
+  --orange:#9e2a2b;
+}
+.footer {
+  background-color:var(--dutch); /* Background color for the footer */
+  color: var(--blue); /* Text color for the footer content */
+  padding: 20px 0; /* Padding at the top and bottom of the footer */
+  text-align: center; /* Center-align the text in the footer */
+}
+
+.footer-content {
+  max-width: 1200px; 
+  margin: 0 auto; 
+  font-weight: 600;
+}
+.footer-content{
+    color:var(--blue);
+}
+.footer-link{
+    color:var(--blue);
+    text-decoration: none;
+}

@@ -1,0 +1,23 @@
+:root {
+    --blue:red;
+    --dutch:#f5ebe0;
+    --orange:#444;
+}
+
+.homeContainer{
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeTitle{
+    width:1024px;
+    font-size:20px;
+    display: flex;
+    justify-content: flex-start;
+    color: var(--blue);
+}
+.home{
+    background-color: var(--dutch);
+}

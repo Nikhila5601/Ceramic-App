@@ -1,0 +1,35 @@
+:root {
+  --blue:#444;
+  --dutch:#f5ebe0;
+  --orange:#9e2a2b;
+}
+
+.mail{
+    margin-top:100px;
+    width:100%;
+    max-width:1024px;
+    color:var(--dutch);
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    padding:50px;
+}
+
+.mailInputContainer input{
+    width:500px;
+    height: 30px;
+    padding: 10px;
+    border:none;
+    font-size: medium;
+    margin-right: 10px;
+}
+.mailButton{
+    height: 50px !important;
+    width:100px;
+    background-color: var(--orange);
+    font-size:16px;
+    margin: 5px;
+    cursor:pointer;
+}

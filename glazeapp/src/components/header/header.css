@@ -1,7 +1,7 @@
 :root {
-    --blue:#4F6D7A;
-    --dutch:#E8DAB2;
-    --orange:#DD6E42;
+    --blue:red;
+    --dutch:#f5ebe0;
+    --orange:#444;
 }
 .header{
     background-color: var(--blue); 
@@ -14,13 +14,16 @@
 .headerContainer{
     width:100%;
     max-width: 1024px;
-    margin: 20px 0px 100px 20px;
+    margin: 30px 0px 100px 30px;
 
+}
+.headerContainer .listMode{
+    margin: 30px 0px 0px 30px;
 }
 
 .headerList{
     display: flex;
-    gap:40px;
+    gap:35px;
     margin:20px 0px;
 
 }
@@ -51,7 +54,7 @@
 }
 
 .headerSearch{
-    height:30px;
+    height:1.875rem;
     width:100%;
     max-width: 710px;
     background-color: var(--dutch);
@@ -71,7 +74,8 @@
 
 .Search{
     height:auto;
-    margin: 10px 0px !important;
+    margin: 3px 0px !important;
+
 }
 
 .headerSearchItem{
@@ -93,4 +97,33 @@
 .headerSearchInput::placeholder{
     color:var(--blue);
     font-size: 1rem;
+}
+.datepicker{
+    z-index: 2;
+    position: absolute;
+    top:50px;
+    border-radius:5px;
+}
+
+.rdrCalendarWrapper{
+    border-radius: 10px !important;
+}
+
+.rdrCalendarWrapper,.rdrNextPrevButton,.rdrDateRangeWrapper,.rdrDayDisabled,.rdrDateDisplayWrapper{
+    background-color: var(--dutch)!important;
+}
+.rdrInRange{
+    background-color: var(--orange)!important;
+}
+.rdrEndEdge, .rdrStartEdge{
+    background-color: var(--orange)!important;
+}
+button.rdrDay.rdrDayHovered{
+    border-color: var(--orange)!important;
+}
+.rdrDateDisplayItemActive,.rdrDayStartPreview,.rdrDayEndPreview,.rdrDayInPreview{
+    border-color: var(--orange)!important;
+}
+.rdrDayToday .rdrDayNumber span:after{
+    background-color:var(--orange)!important;
 }
