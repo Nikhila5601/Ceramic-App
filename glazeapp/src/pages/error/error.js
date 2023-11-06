@@ -1,11 +1,11 @@
-import img1 from "./img1.png";
-import img2 from "./img2.png";
-import img3 from "./img3.png";
-import img4 from "./img4.png";
-import img5 from "./img5.png";
-import img6 from "./img6.png";
-import img7 from "./img7.png";
-import img8 from "./img8.png";
+import img1 from "./errorimages/img1.png";
+import img2 from "./errorimages/img2.png";
+import img3 from "./errorimages/img3.png";
+import img4 from "./errorimages/img4.png";
+import img5 from "./errorimages/img5.png";
+import img6 from "./errorimages/img6.png";
+import img7 from "./errorimages/img7.png";
+import img8 from "./errorimages/img8.png";
 const data=[
         {
         text : "Oops!,The URL broke not the ☕",
